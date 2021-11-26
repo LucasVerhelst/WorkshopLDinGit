@@ -18,7 +18,13 @@ bim-c:Persons {
     foaf:givenName "Robin";
 	  bim-c:Nameday "30.01" ;
 	.
-  
+  bim-c:MiltosGkatzios a foaf:Person;
+  foaf:familyName "Gkatzios";
+    foaf:gender "male";
+    foaf:givenName "Miltos";
+    bim-c:nameday "10/04" ;
+  .
+
   bim-c:BobVanThiel a foaf:Person;
   foaf:familyName "Bob";
     foaf:gender "male";
@@ -52,6 +58,7 @@ bim-c:Organizations {
     foaf:member bim-c:LucasVerhelst ;
 	  foaf:member bim-c:RobinFranken ;
     foaf:member bim-c:BobVanThiel ;
+    foaf:member bim-c:MiltosGkatzios ;
     foaf:member bim-c:Dirk-JanFokkIT ;
 	  foaf:member bim-c:LuukWijnholts ;
   .
