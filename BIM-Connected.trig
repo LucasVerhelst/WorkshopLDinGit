@@ -24,6 +24,10 @@ bim-c:Persons {
     foaf:gender "male";
     foaf:givenName "Van Thiel";
   .
+   bim-c:Dirk-JanFokkIT a foaf:Person;
+  foaf:familyName "FokkIT";
+    foaf:gender "male";
+    foaf:givenName "Dirk-Jan";
 
 bim-c:LuukWijnholts a foaf:Person;
   foaf:familyName "Wijnholts";
@@ -48,7 +52,8 @@ bim-c:Organizations {
     foaf:member bim-c:LucasVerhelst ;
 	  foaf:member bim-c:RobinFranken ;
     foaf:member bim-c:BobVanThiel ;
-	foaf:member bim-c:LuukWijnholts ;
+    foaf:member bim-c:Dirk-JanFokkIT ;
+	  foaf:member bim-c:LuukWijnholts ;
   .
   
 }
