@@ -18,6 +18,11 @@ bim-c:Persons {
     foaf:givenName "Van Thiel";
   .
 
+bim-c:LuukWijnholts a foaf:Person;
+  foaf:familyName "Wijnholts";
+    foaf:gender "male";
+    foaf:givenName "Luuk";
+  .
 }
 
 # Add a new line asserting that you are a member of the BIM-Connected Group. Please use the notation used below: "foaf:member bim-c:yourname ;" on a new line
@@ -35,6 +40,7 @@ bim-c:Organizations {
     ];
     foaf:member bim-c:LucasVerhelst ;
     foaf:member bim-c:BobVanThiel ;
+	foaf:member bim-c:LuukWijnholts ;
   .
   
 }
