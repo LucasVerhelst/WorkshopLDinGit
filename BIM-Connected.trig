@@ -7,10 +7,16 @@
 
 bim-c:Persons {
   bim-c:LucasVerhelst a foaf:Person;
-    foaf:familyName "Lucas";
+    foaf:familyName "Verhelst";
     foaf:gender "male";
-    foaf:givenName "Verhelst";
-
+    foaf:givenName "Lucas";
+	.
+  bim-c:RobinFranken a foaf:Person;
+    foaf:familyName "Franken";
+    foaf:gender "male";
+    foaf:givenName "Robin";
+	bim-c:Nameday "30.01" ;
+	.
 }
 
 # Add a new line asserting that you are a member of the BIM-Connected Group. Please use the notation used below: "foaf:member bim-c:yourname ;" on a new line
@@ -27,6 +33,7 @@ bim-c:Organizations {
         ns:country-name "The Netherlands";
     ];
     foaf:member bim-c:LucasVerhelst ;
+	foaf:member bim-c:RobinFranken
   .
   
 }
