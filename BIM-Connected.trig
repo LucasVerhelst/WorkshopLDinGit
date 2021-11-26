@@ -19,9 +19,9 @@ bim-c:Persons {
 	  bim-c:Nameday "30.01" ;
 	.
   bim-c:MiltosGkatzios a foaf:Person;
-  foaf:familyName "Miltos";
+  foaf:familyName "Gkatzios";
     foaf:gender "male";
-    foaf:givenName "Gkatzios";
+    foaf:givenName "Miltos";
     bim-c:nameday "10/04" ;
   .
 
