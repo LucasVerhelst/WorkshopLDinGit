@@ -7,10 +7,17 @@
 
 bim-c:Persons {
   bim-c:LucasVerhelst a foaf:Person;
-    foaf:familyName "Lucas";
+    foaf:familyName "Verhelst";
     foaf:gender "male";
-    foaf:givenName "Verhelst";
-  .
+    foaf:givenName "Lucas";
+	.
+  
+  bim-c:RobinFranken a foaf:Person;
+    foaf:familyName "Franken";
+    foaf:gender "male";
+    foaf:givenName "Robin";
+	  bim-c:Nameday "30.01" ;
+	.
   
   bim-c:BobVanThiel a foaf:Person;
   foaf:familyName "Bob";
@@ -34,6 +41,7 @@ bim-c:Organizations {
         ns:country-name "The Netherlands";
     ];
     foaf:member bim-c:LucasVerhelst ;
+	  foaf:member bim-c:RobinFranken ;
     foaf:member bim-c:BobVanThiel ;
   .
   
