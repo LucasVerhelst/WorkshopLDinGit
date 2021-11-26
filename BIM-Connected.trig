@@ -1,0 +1,32 @@
+@prefix bim-c: <http://data.bim-connected.com/id/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns: <http://www.w3.org/2006/vcard/ns#> .
+
+# Add yourself as a person, use the example as template
+
+bim-c:Persons {
+  bim-c:LucasVerhelst a foaf:Person;
+    foaf:familyName "Lucas";
+    foaf:gender "male";
+    foaf:givenName "Verhelst";
+
+}
+
+# Add a new line asserting that you are a member of the BIM-Connected Group. Please use the notation used below: "foaf:member bim-c:yourname ;" on a new line
+
+bim-c:Organizations {
+  bim-c:BIM-Connected a foaf:Group;
+    foaf:name "BIM-Connected";
+	  foaf:mbox "info@bim-connected.com";
+    ns:adr [ a ns:Address;
+        ns:street-address "Torenallee 62-22"; 
+        ns:extended-address "Gebouw Anton (1e verdieping)";
+        ns:postal-code "5617 BD";
+        ns:locality "Eindhoven";
+        ns:country-name "The Netherlands";
+    ];
+    foaf:member bim-c:LucasVerhelst ;
+  .
+  
+}
